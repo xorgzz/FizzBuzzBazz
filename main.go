@@ -3,7 +3,7 @@ import "fmt"
 
 func main() {
     var out string
-    for i:=1; i<100; i++ {
+    for i:=1; i<101; i++ {
         out = ""
         if i%3 == 0 {
             out += "Fizz"
